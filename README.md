@@ -13,3 +13,8 @@ My C programming practice programs
 - smallest.c
 - positive_negative.c
 - leap_year.c
+- vowel_consonant.c
+- calculator.c
+- factorial.c
+- prime_number.c
+- fibonacci.c
