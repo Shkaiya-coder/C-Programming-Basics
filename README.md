@@ -9,3 +9,5 @@ My C programming practice programs
 - modulus.c
 - swap.c
 - even_odd.c
+- largest.c
+- smallest.c
