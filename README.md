@@ -18,3 +18,6 @@ My C programming practice programs
 - factorial.c
 - prime_number.c
 - fibonacci.c
+- palindrome.c
+- reverse_number.c
+-  armstrong.c
