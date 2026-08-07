@@ -21,3 +21,12 @@ My C programming practice programs
 - palindrome.c
 - reverse_number.c
 -  armstrong.c
+-  sum_of_digits.c
+- count_digits.c
+- table.c
+- simple_interest.c
+- compound_interest.c
+- area_of_circle.c
+- area_of_rectangle.c
+- area_of_triangle.c
+- circumference_of_circle.c
