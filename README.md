@@ -28,5 +28,76 @@ My C programming practice programs
 - compound_interest.c
 - area_of_circle.c
 - area_of_rectangle.c
-- area_of_triangle.c
-- circumference_of_circle.c
+- area_ of_ triangle.c
+- circumference _of_circle.c
+- Perimeter_ of_ Rectangle.c
+- Celsius_ to_ Fahrenheit.c
+- Fahrenheit_ to_ Celsius.c
+- Average_ of_ Numbers.c
+- Sum_ of_ Natural_ Numbers.c
+- Sum_ of_ Even_ Numbers.c
+- Sum_ of_ Odd_ Numbers.c
+- GCD (HCF)
+- LCM
+- Power_ of_ a_ Number.c
+- Square Root.c
+- Star_Triangle.c
+- Inverted_ Triangle.c
+- Pyramid.c
+- Reverse_ Pyramid.c
+- Diamond.c
+- Floyd's_ Triangle.c
+- Pascal's_ Triangle.c
+- Number_ Triangle.c
+- Character_ Triangle.c
+- Hollow_ Square.c
+- Hollow_ Rectangle.c
+- Hollow_ Pyramid.c
+- Right_ Triangle.c
+- Left_ Triangle.c
+- X_ Pattern.c
+- Array_ Input & Output.c
+- Sum_ of_ Array.c
+- Largest_ Element.c
+- Smallest_ Element.c
+- Average_of_ Array.c
+- Reverse_ Array.c
+- Copy_ Array.c
+- Merge_ Arrays.c
+- Sort_ Ascending.c
+- Sort_ Descending.c
+- Search_ Element.c
+- Second_ Largest.c
+- Remove_ Duplicate.c
+- Frequency_ Count.c
+- Matrix_ Addition.c
+- String_ Length.c
+- String_ Copy.c
+- String_ Compare.c
+- String_ Concatenate.c
+- Reverse_ String.c
+- Palindrome_ String.c
+- Count_ Vowels.c
+- Count_ Words.c
+- Count_ Characters.c
+- Uppercase_ to_ Lowercase.c
+- Lowercase _to_ Uppercase.c
+- Remove_ Spaces.c
+- Count_ Digits_ in_ String.c
+- Count_ Special_ Characters.c
+- Frequency_ of_ Characters.c
+- Function_ Addition.c
+- Function_ Factorial.c
+- Function_ Prime.c
+- Recursive _Factorial.c
+- Recursive_ Fibonacci.c
+- Pointer_ Basics.c
+- Swap_ Using_ Pointers.c
+- Array_ Using _ Pointer.c
+- File_ Write.c
+- File_ Read.c
+- File _Append.c
+- Student_ Structure.c
+- Employee_ Structure.c
+- Menu-driven_ Program.c
+- Mini Project (Student Management System)
