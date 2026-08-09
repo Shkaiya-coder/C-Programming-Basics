@@ -1,103 +1,83 @@
-# C-Programming-Basics
-My C programming practice programs
+# C Programming Practice
 
-- hello.c
-- addition.c
-- subtraction.c
-- multiplication.c
-- division.c
-- modulus.c
-- swap.c
-- even_odd.c
-- largest.c
-- smallest.c
-- positive_negative.c
-- leap_year.c
-- vowel_consonant.c
-- calculator.c
-- factorial.c
-- prime_number.c
-- fibonacci.c
-- palindrome.c
-- reverse_number.c
--  armstrong.c
--  sum_of_digits.c
-- count_digits.c
-- table.c
-- simple_interest.c
-- compound_interest.c
-- area_of_circle.c
-- area_of_rectangle.c
-- area_ of_ triangle.c
-- circumference _of_circle.c
-- Perimeter_ of_ Rectangle.c
-- Celsius_ to_ Fahrenheit.c
-- Fahrenheit_ to_ Celsius.c
-- Average_ of_ Numbers.c
-- Sum_ of_ Natural_ Numbers.c
-- Sum_ of_ Even_ Numbers.c
-- Sum_ of_ Odd_ Numbers.c
-- GCD (HCF)
-- LCM
-- Power_ of_ a_ Number.c
-- Square Root.c
-- Star_Triangle.c
-- Inverted_ Triangle.c
-- Pyramid.c
-- Reverse_ Pyramid.c
-- Diamond.c
-- Floyd's_ Triangle.c
-- Pascal's_ Triangle.c
-- Number_ Triangle.c
-- Character_ Triangle.c
-- Hollow_ Square.c
-- Hollow_ Rectangle.c
-- Hollow_ Pyramid.c
-- Right_ Triangle.c
-- Left_ Triangle.c
-- X_ Pattern.c
-- Array_ Input & Output.c
-- Sum_ of_ Array.c
-- Largest_ Element.c
-- Smallest_ Element.c
-- Average_of_ Array.c
-- Reverse_ Array.c
-- Copy_ Array.c
-- Merge_ Arrays.c
-- Sort_ Ascending.c
-- Sort_ Descending.c
-- Search_ Element.c
-- Second_ Largest.c
-- Remove_ Duplicate.c
-- Frequency_ Count.c
-- Matrix_ Addition.c
-- String_ Length.c
-- String_ Copy.c
-- String_ Compare.c
-- String_ Concatenate.c
-- Reverse_ String.c
-- Palindrome_ String.c
-- Count_ Vowels.c
-- Count_ Words.c
-- Count_ Characters.c
-- Uppercase_ to_ Lowercase.c
-- Lowercase _to_ Uppercase.c
-- Remove_ Spaces.c
-- Count_ Digits_ in_ String.c
-- Count_ Special_ Characters.c
-- Frequency_ of_ Characters.c
-- Function_ Addition.c
-- Function_ Factorial.c
-- Function_ Prime.c
-- Recursive _Factorial.c
-- Recursive_ Fibonacci.c
-- Pointer_ Basics.c
-- Swap_ Using_ Pointers.c
-- Array_ Using _ Pointer.c
-- File_ Write.c
-- File_ Read.c
-- File _Append.c
-- Student_ Structure.c
-- Employee_ Structure.c
-- Menu-driven_ Program.c
-- Mini Project (Student Management System)
+I have completed 100 C programs to practice programming basics, arrays, and matrices.
+
+## 📚 Topics Covered
+
+### 1. Basic C Programs
+- Variables
+- Input and Output
+- Arithmetic Operations
+- Conditions
+- Loops
+
+### 2. Number Programs
+- Factorial
+- Prime Number
+- Fibonacci
+- Palindrome
+- Armstrong Number
+- GCD
+
+### 3. Pattern Programs
+- Star Triangle
+- Pyramid
+- Diamond
+- Floyd's Triangle
+- Number Triangle
+- Character Triangle
+
+### 4. Array Programs
+- Copy Array
+- Merge Arrays
+- Sorting
+- Searching
+- Remove Duplicates
+- Frequency Count
+
+### 5. Matrix Programs
+- Matrix Addition
+- Matrix Subtraction
+- Matrix Multiplication
+- Transpose
+- Diagonal Sum
+- Row and Column Operations
+- Triangular Matrix
+- Spiral Matrix
+- Matrix Max and Min
+
+## 🚀 Next Learning Plan
+
+### 6. Functions
+- Function Basics
+- Function with Parameters
+- Factorial using Function
+- Prime Number using Function
+- GCD using Function
+
+### 7. Pointers
+- Pointer Basics
+- Pointer with Arrays
+- Pointer with Functions
+
+### 8. Strings
+- String Length
+- String Copy
+- String Compare
+- String Reverse
+- String Palindrome
+
+### 9. Structures
+- Student Details
+- Employee Details
+- Marks Management
+
+### 10. File Handling
+- Create File
+- Read File
+- Write File
+- Append File
+
+## 🎯 Goal
+
+To build strong C programming fundamentals and prepare for Data Structures, Algorithms, and AI/CSE subjects.
