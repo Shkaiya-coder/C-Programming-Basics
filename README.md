@@ -46,14 +46,16 @@ I have completed 100 C programs to practice programming basics, arrays, and matr
 - Spiral Matrix
 - Matrix Max and Min
 
-## 🚀 Next Learning Plan
-
 ### 6. Functions
 - Function Basics
 - Function with Parameters
 - Factorial using Function
 - Prime Number using Function
 - GCD using Function
+
+
+
+### - Next Learning plan-
 
 ### 7. Pointers
 - Pointer Basics
