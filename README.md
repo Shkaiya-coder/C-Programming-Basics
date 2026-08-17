@@ -53,10 +53,6 @@ I have completed 100 C programs to practice programming basics, arrays, and matr
 - Prime Number using Function
 - GCD using Function
 
-
-
-### - Next Learning plan-
-
 ### 7. Pointers
 - Pointer Basics
 - Pointer with Arrays
@@ -68,6 +64,9 @@ I have completed 100 C programs to practice programming basics, arrays, and matr
 - String Compare
 - String Reverse
 - String Palindrome
+
+
+###- Next topics 
 
 ### 9. Structures
 - Student Details
