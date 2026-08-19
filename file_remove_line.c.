@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+    FILE *file, *temp;
+    char line[200];
+    int line_number, current_line = 1;
+
+    file = fopen("data.txt", "r");
+    temp = fopen("temp.txt", "w");
+
+    if (file == NULL || temp == NULL) {
+        printf("File error.");
+        return 1;
+    }
+
+    printf("Enter line number to remove: ");
+    scanf("%d", &line_number);
+
+    while (fgets(line, sizeof(line), file) != NULL) {
+        if (current_line != line_number) {
+            fputs(line, temp);
+        }
+
+        current_line++;
+    }
+
+    fclose(file);
+    fclose(temp);
+
+    remove("data.txt");
+    rename("temp.txt", "data.txt");
+
+    printf("Line removed successfully.");
+
+    return 0;
+}
