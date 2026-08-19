@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    FILE *file, *temp;
+    char line[200];
+    char old_word[50], new_word[50];
+
+    file = fopen("data.txt", "r");
+    temp = fopen("temp.txt", "w");
+
+    if (file == NULL || temp == NULL) {
+        printf("File error.");
+        return 1;
+    }
+
+    printf("Enter word to replace: ");
+    scanf("%49s", old_word);
+
+    printf("Enter new word: ");
+    scanf("%49s", new_word);
+
+    while (fgets(line, sizeof(line), file) != NULL) {
+        char *position;
+
+        while ((position = strstr(line, old_word)) != NULL) {
+            char temp_line[200];
+
+            strcpy(temp_line, position + strlen(old_word));
+            *position = '\0';
+
+            strcat(line, new_word);
+            strcat(line, temp_line);
+        }
+
+        fputs(line, temp);
+    }
+
+    fclose(file);
+    fclose(temp);
+
+    remove("data.txt");
+    rename("temp.txt", "data.txt");
+
+    printf("Word replaced successfully.");
+
+    return 0;
+}
