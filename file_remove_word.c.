@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    FILE *file, *temp;
+    char line[200];
+    char word[50];
+
+    file = fopen("data.txt", "r");
+    temp = fopen("temp.txt", "w");
+
+    if (file == NULL || temp == NULL) {
+        printf("File error.");
+        return 1;
+    }
+
+    printf("Enter word to remove: ");
+    scanf("%49s", word);
+
+    while (fgets(line, sizeof(line), file) != NULL) {
+        char *position;
+
+        while ((position = strstr(line, word)) != NULL) {
+            char temp_line[200];
+
+            strcpy(temp_line, position + strlen(word));
+            *position = '\0';
+
+            strcat(line, temp_line);
+        }
+
+        fputs(line, temp);
+    }
+
+    fclose(file);
+    fclose(temp);
+
+    remove("data.txt");
+    rename("temp.txt", "data.txt");
+
+    printf("Word removed successfully.");
+
+    return 0;
+}
