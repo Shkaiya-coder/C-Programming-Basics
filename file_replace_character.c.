@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main() {
+    FILE *file, *temp;
+    char ch, old_ch, new_ch;
+
+    file = fopen("data.txt", "r");
+    temp = fopen("temp.txt", "w");
+
+    if (file == NULL || temp == NULL) {
+        printf("File error.");
+        return 1;
+    }
+
+    printf("Enter character to replace: ");
+    scanf(" %c", &old_ch);
+
+    printf("Enter new character: ");
+    scanf(" %c", &new_ch);
+
+    while ((ch = fgetc(file)) != EOF) {
+        if (ch == old_ch) {
+            ch = new_ch;
+        }
+
+        fputc(ch, temp);
+    }
+
+    fclose(file);
+    fclose(temp);
+
+    remove("data.txt");
+    rename("temp.txt", "data.txt");
+
+    printf("Character replaced successfully.");
+
+    return 0;
+}
